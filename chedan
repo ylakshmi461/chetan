@@ -1,0 +1,89 @@
+git batch in login with my crediancial commands
+1.git init
+2.git status
+3.git config --global user.name "siva"
+4.git config --global user email "ysivalakshmi15@gmail.com"
+5.git config --list
+6.git config -- global unset user name
+7.git config --global unset user email
+----------------------------
+8.touch file1
+9.ls
+10.git status
+11.git add file1
+12.git status
+13.git commit -m"lable"file1     git in file adding commands
+14.git status
+15.git log
+16.git show commit id
+17.touch file2
+---------------------------
+multipule file adding
+touch file2 file3 file4,,,,,,n
+18.ls
+19.git status 
+20.git add file2 file3 file4 
+or                                 git in mult files adding commands
+21.git add *
+or
+22.git add .
+or
+23.git add -A
+24.git status
+25.git commit -m"lable"
+26.git show cid
+----------------------------
+27.git clone https://git hub.com/ylaks461/mahes.git
+28.ls
+29.cd mahesh
+30.ls                     github adding file
+31.touch devops
+32.git add
+33.git commit -m"sample file"
+34.git push
+---------------------------
+35.mkdir dir1
+36.ls
+37.cd dir1
+38.touch f1 f2 f3
+39.cd..                          dir in file adding commands
+40.git add dir1/f1
+41.git commit -m "sample dir"
+42.git push
+---------------------------
+43.rm file3
+or 
+44.rm -rf file3              dir in file delete commands
+45.git add .
+git commit -m "test commit"
+git push
+--------------------
+git clone https://github.com/polarapu/batch72.git
+ls
+cd batch72
+ls
+touch name
+git status                                another crediancial use commands
+git commit -m "sample commit from name"
+git status
+git push
+--------------------------
+git in reverse files commands
+touch devops99
+git add devops99            staging/index to workspace 
+git status
+git reset head file1
+--------------------------------
+git in reverse files commands
+touch devops99
+git add devops99
+git status
+git commit -m "lable"
+git log
+git show cid
+git reset --soft cld  (local to staging)
+git reset --mixed cid (local to workspace)  
+git reset --hard cid (delete data and commit logs)
+git commit -m "lable" file-name (workspace to local)                     (n-1)
+-------------------------------
+branch is a nothing but copy of the data
